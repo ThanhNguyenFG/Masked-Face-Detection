@@ -1,0 +1,5 @@
+name: Ultra_Face
+dependencies:
+- pip
+- python=3.6
+- anaconda
