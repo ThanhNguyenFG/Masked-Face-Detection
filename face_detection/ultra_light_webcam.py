@@ -18,7 +18,7 @@ from binary_classification import *
 
 video_capture = cv2.VideoCapture(0)
 
-classification_path = 'classification/models/xxx.h5'
+classification_path = 'classification/models/mobilenet-model-alpha0.25.h5'
 onnx_path = 'UltraLight/models/ultra_light_640.onnx'
 onnx_model = onnx.load(onnx_path)
 predictor = prepare(onnx_model)

@@ -12,7 +12,7 @@ import onnxruntime as ort
 from onnx_tf.backend import prepare
 import box_utils
 from tensorflow.keras.models import load_model
-from inceptionv3_binary_classification import *
+from binary_classification import *
 
 def predict(width, height, confidences, boxes, prob_threshold, iou_threshold=0.5, top_k=-1):
     boxes = boxes[0]
